@@ -1,27 +1,48 @@
-# Schedule I Save Editor - Source Code
+# Schedule I Save Editor - Source Code & License  
+*Version 1.0.0*  
+*Last Updated: March 27, 2025*
 
-**Version**: 1.0.0  
-**Last Updated**: March 27, 2025  
-
-Welcome to the source code repository for *Schedule I Save Editor*, a Python-based tool designed to unlock in-game content for personal use. This project powers the standalone Windows app distributed via the [ScheduleIEditor-Installer](https://github.com/ItsJohnnyy02/ScheduleIEditor-Installer) public repo. Here, you’ll find the raw code, including the GUI, updater, and RAR extraction logic.
-
-**Note**: This repository is private. The compiled installer is the only public release. See the [license](#license) below for usage terms.
+Hey there! Welcome to the heart of **Schedule I Save Editor**, where the magic happens. This private repo holds the Python source code that powers the slick Windows app you can grab from the [ScheduleIEditor-Installer](https://github.com/ItsJohnnyy02/ScheduleIEditor-Installer) public repo. Below, you’ll find the dev details and the *all-important* license that keeps this locked down.
 
 ---
 
-## 🎯 Purpose
-This editor simplifies modifying game save files by:
-- Unlocking all properties via automated downloads and extraction.
-- Providing a tabbed Tkinter GUI for easy cheat access.
-- Supporting self-updates (currently in progress).
+### ✨ What’s This About?
+This tool’s built to tweak game saves with style:  
+- **Unlocks Properties**: Grabs and applies in-game goodies effortlessly.  
+- **Sleek GUI**: A Tkinter tabbed interface for cheat mastery.  
+- **Auto-Update**: Pulls updates from the public repo (*work in progress*).  
+- **Custom Vibes**: Rocks a unique icon for that personal touch.
 
 ---
 
-## 🛠️ Setup for Development
-To run or modify the source code locally:
+### 📦 Setup for Devs
+Wanna dive in and tinker? Here’s how to get rolling:
 
-### Prerequisites
-- **Python**: 3.8+ (tested on 3.11).
-- **Dependencies**: Install via pip:
+#### Requirements
+- **Python**: 3.8+ (I’m using 3.11).  
+- **Tools**:  
+  - [7-Zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com/) for extraction.  
+- **Dependencies**:  
   ```bash
   pip install requests pyinstaller
+
+  🗂️ What’s Inside
+editor.py: The core—GUI, updater, and save magic.
+editor.ico: That sweet custom icon.
+editor_installer.iss: Inno Setup script for the installer.
+data/: Where RARs unpack at runtime.
+
+⚙️ How It Works
+GUI: Tkinter Notebook tabs for cheats.
+Updater: Dual-mode for .py and .exe updates.
+RAR Magic: Pulls and extracts Properties.rar with 7-Zip or WinRAR.
+
+🚧 Heads Up
+Auto-Update: Not quite there yet—planning a fix in a few days!
+Permissions: Might need admin vibes or an AppData tweak for data.
+
+📝 Dev Notes
+Updater Fix: Next up—swapping hardcoded versions for a GitHub API check.
+
+Got questions? Ping me directly!
+
