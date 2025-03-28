@@ -14,7 +14,7 @@ from typing import Dict, List, Optional, Union
 import subprocess
 import requests
 
-__version__ = "0.2.9"  # 
+__version__ = "0.2.10"  # 
 
 def check_for_updates():
     try:
