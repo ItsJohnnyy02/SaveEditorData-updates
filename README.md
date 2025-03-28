@@ -2,7 +2,7 @@
 *Version 1.0.0*  
 *Last Updated: March 27, 2025*
 
-Hey there! Welcome to the heart of **Schedule I Save Editor**, where the magic happens. This private repo holds the Python source code that powers the slick Windows app you can grab from the [ScheduleIEditor-Installer](https://github.com/ItsJohnnyy02/ScheduleIEditor-Installer) public repo. Below, you’ll find the dev details and the *all-important* license that keeps this locked down.
+Hey there! Welcome to the heart of **Schedule I Save Editor**, where the magic happens. This private repo holds the Python source code that powers the slick Windows app you can grab from the [ScheduleIEditor-[Installer][(https://github.com/ItsJohnnyy02/ScheduleIEditor-Installer)](https://github.com/ItsJohnnyy02/Schedule1SaveEditor/releases/tag/Schedule1SaveEditor)] public repo. Below, you’ll find the dev details and the *all-important* license that keeps this locked down.
 
 ---
 
